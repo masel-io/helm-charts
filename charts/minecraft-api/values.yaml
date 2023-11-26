@@ -5,7 +5,7 @@
 replicaCount: 1
 
 image:
-  repository: nginx
+  repository: ghcr.io/masel-io/minecraft-api
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
   tag: ""
@@ -13,6 +13,16 @@ image:
 imagePullSecrets: []
 nameOverride: ""
 fullnameOverride: ""
+
+env: []
+  # - name: MY_POD_NAME
+  #   valueFrom:
+  #     fieldRef:
+  #       fieldPath: metadata.name
+  # - name: MY_POD_NAMESPACE
+  #   valueFrom:
+  #     fieldRef:
+  #       fieldPath: metadata.namespace
 
 serviceAccount:
   # Specifies whether a service account should be created
@@ -41,7 +51,7 @@ securityContext: {}
 
 service:
   type: ClusterIP
-  port: 80
+  port: 9090
 
 ingress:
   enabled: false
