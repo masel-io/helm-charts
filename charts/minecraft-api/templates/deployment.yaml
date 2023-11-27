@@ -45,11 +45,11 @@ spec:
               protocol: TCP
           livenessProbe:
             httpGet:
-              path: /actuator/health/liveness
+              path: /status
               port: management
           readinessProbe:
             httpGet:
-              path: /actuator/health/readiness
+              path: /status
               port: management
           resources:
             {{- toYaml .Values.resources | nindent 12 }}
