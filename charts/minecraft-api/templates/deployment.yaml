@@ -46,11 +46,11 @@ spec:
           livenessProbe:
             httpGet:
               path: /status
-              port: management
+              port: http
           readinessProbe:
             httpGet:
               path: /status
-              port: management
+              port: http
           resources:
             {{- toYaml .Values.resources | nindent 12 }}
           {{- with .Values.volumeMounts }}
