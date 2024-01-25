@@ -37,8 +37,8 @@ spec:
           image: "{{ .Values.image.repository }}:{{ .Values.image.tag | default .Chart.AppVersion }}"
           imagePullPolicy: {{ .Values.image.pullPolicy }}
           args:
-            - '--provider local'
-            - '--basedir /tmp'
+            - '--provider=local'
+            - '--basedir=/tmp'
           ports:
             - name: http
               containerPort: {{ .Values.service.port }}
