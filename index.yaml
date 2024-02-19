@@ -371,6 +371,17 @@ entries:
     urls:
     - https://github.com/masel-io/helm-charts/releases/download/minecraft-api-0.1.1/minecraft-api-0.1.1.tgz
     version: 0.1.1
+  screenguardian:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2024-02-19T21:12:10.829731571Z"
+    description: A Helm chart for Kubernetes
+    digest: 43efff96e70c023b607b238bcac3f2a79ab6aa4f21911707d907fff386217484
+    name: screenguardian
+    type: application
+    urls:
+    - https://github.com/masel-io/helm-charts/releases/download/screenguardian-0.1.0/screenguardian-0.1.0.tgz
+    version: 0.1.0
   transfer-sh:
   - apiVersion: v2
     appVersion: 1.3.0
@@ -382,4 +393,4 @@ entries:
     urls:
     - https://github.com/masel-io/helm-charts/releases/download/transfer-sh-0.1.0/transfer-sh-0.1.0.tgz
     version: 0.1.0
-generated: "2024-02-09T14:45:32.884278682Z"
+generated: "2024-02-19T21:12:10.829828833Z"
