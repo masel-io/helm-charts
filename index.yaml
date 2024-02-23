@@ -445,6 +445,16 @@ entries:
   teamspeak-server:
   - apiVersion: v2
     appVersion: 3.13.7
+    created: "2024-02-23T21:25:59.554097987Z"
+    description: A Helm chart for Kubernetes
+    digest: 89fcbe3a9d72a7668e20f50c661df30a5da7d79fb7dc93b874f2ca0d12a3bbf9
+    name: teamspeak-server
+    type: application
+    urls:
+    - https://github.com/masel-io/helm-charts/releases/download/teamspeak-server-0.1.3/teamspeak-server-0.1.3.tgz
+    version: 0.1.3
+  - apiVersion: v2
+    appVersion: 3.13.7
     created: "2024-02-23T21:15:16.825096785Z"
     description: A Helm chart for Kubernetes
     digest: 8f3d8626d49b56d29d07f9b6f70c7db14fa9ca2f6a9840ff40a59faf082cfd99
@@ -484,4 +494,4 @@ entries:
     urls:
     - https://github.com/masel-io/helm-charts/releases/download/transfer-sh-0.1.0/transfer-sh-0.1.0.tgz
     version: 0.1.0
-generated: "2024-02-23T21:15:16.825188882Z"
+generated: "2024-02-23T21:25:59.55419547Z"
