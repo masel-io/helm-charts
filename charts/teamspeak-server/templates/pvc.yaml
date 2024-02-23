@@ -2,7 +2,7 @@
 kind: PersistentVolumeClaim
 apiVersion: v1
 metadata:
-  name: {{ include "teamspeak-server.fullname" . }}
+  name: teamspeak-data
   labels:
     {{- include "teamspeak-server.labels" . | nindent 4 }}
   {{- with .Values.persistence.annotations }}

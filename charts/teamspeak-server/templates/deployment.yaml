@@ -1,5 +1,5 @@
 apiVersion: apps/v1
-kind: Deployment
+kind: StatefulSet
 metadata:
   name: {{ include "teamspeak-server.fullname" . }}
   labels:
@@ -11,6 +11,7 @@ spec:
   selector:
     matchLabels:
       {{- include "teamspeak-server.selectorLabels" . | nindent 6 }}
+  serviceName: {{ include "teamspeak-server.fullname" . }}
   template:
     metadata:
       {{- with .Values.podAnnotations }}
