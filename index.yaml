@@ -383,6 +383,16 @@ entries:
     version: 0.1.1
   screenguardian:
   - apiVersion: v2
+    appVersion: 1.0.3
+    created: "2024-02-23T20:02:02.068030141Z"
+    description: A Helm chart for Kubernetes
+    digest: 809e62c915b3c1c226875df06b40259bc68482bd7c830983067f7adfe93fc1dc
+    name: screenguardian
+    type: application
+    urls:
+    - https://github.com/masel-io/helm-charts/releases/download/screenguardian-0.1.6/screenguardian-0.1.6.tgz
+    version: 0.1.6
+  - apiVersion: v2
     appVersion: 1.0.2
     created: "2024-02-23T19:56:09.774463564Z"
     description: A Helm chart for Kubernetes
@@ -443,4 +453,4 @@ entries:
     urls:
     - https://github.com/masel-io/helm-charts/releases/download/transfer-sh-0.1.0/transfer-sh-0.1.0.tgz
     version: 0.1.0
-generated: "2024-02-23T19:56:09.774569142Z"
+generated: "2024-02-23T20:02:02.06814187Z"
