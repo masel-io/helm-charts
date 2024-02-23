@@ -442,6 +442,17 @@ entries:
     urls:
     - https://github.com/masel-io/helm-charts/releases/download/screenguardian-0.1.0/screenguardian-0.1.0.tgz
     version: 0.1.0
+  teamspeak-server:
+  - apiVersion: v2
+    appVersion: 3.13.7
+    created: "2024-02-23T20:19:34.527345622Z"
+    description: A Helm chart for Kubernetes
+    digest: 7b14aff416ac17c8e100525fc61c240a291563bcef932407d3a678b3031ccc3c
+    name: teamspeak-server
+    type: application
+    urls:
+    - https://github.com/masel-io/helm-charts/releases/download/teamspeak-server-0.1.0/teamspeak-server-0.1.0.tgz
+    version: 0.1.0
   transfer-sh:
   - apiVersion: v2
     appVersion: 1.3.0
@@ -453,4 +464,4 @@ entries:
     urls:
     - https://github.com/masel-io/helm-charts/releases/download/transfer-sh-0.1.0/transfer-sh-0.1.0.tgz
     version: 0.1.0
-generated: "2024-02-23T20:02:02.06814187Z"
+generated: "2024-02-23T20:19:34.527444888Z"
