@@ -3,6 +3,16 @@ entries:
   minecraft-api:
   - apiVersion: v2
     appVersion: 2.14.1
+    created: "2024-02-23T19:19:18.343170408Z"
+    description: A Helm chart for Kubernetes
+    digest: c8deea0464a52168d88eb24d120f8627b8107be5ebedaa56c1d342c51d3c43ce
+    name: minecraft-api
+    type: application
+    urls:
+    - https://github.com/masel-io/helm-charts/releases/download/minecraft-api-0.7.2/minecraft-api-0.7.2.tgz
+    version: 0.7.2
+  - apiVersion: v2
+    appVersion: 2.14.1
     created: "2024-02-09T14:45:32.883826513Z"
     description: A Helm chart for Kubernetes
     digest: 840a68df66b38e4252db978b8f257d2ee005bc890b0862f8e95b5b6bc2c74e3d
@@ -373,6 +383,16 @@ entries:
     version: 0.1.1
   screenguardian:
   - apiVersion: v2
+    appVersion: 1.0.1
+    created: "2024-02-23T19:19:18.45881335Z"
+    description: A Helm chart for Kubernetes
+    digest: 225bc996a26b065a290ec76db93cb84f74cce940d41032bddecfc363173efd39
+    name: screenguardian
+    type: application
+    urls:
+    - https://github.com/masel-io/helm-charts/releases/download/screenguardian-0.1.3/screenguardian-0.1.3.tgz
+    version: 0.1.3
+  - apiVersion: v2
     appVersion: 1.0.0
     created: "2024-02-22T19:36:19.765713577Z"
     description: A Helm chart for Kubernetes
@@ -403,4 +423,4 @@ entries:
     urls:
     - https://github.com/masel-io/helm-charts/releases/download/transfer-sh-0.1.0/transfer-sh-0.1.0.tgz
     version: 0.1.0
-generated: "2024-02-22T19:36:19.765804307Z"
+generated: "2024-02-23T19:19:18.459208831Z"
