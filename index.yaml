@@ -2,6 +2,16 @@ apiVersion: v1
 entries:
   minecraft-api:
   - apiVersion: v2
+    appVersion: 2.25.0
+    created: "2024-07-31T12:33:05.95852544Z"
+    description: A Helm chart for Kubernetes
+    digest: 2a706b97a2156eb9d1ef75d1fddffb055ece1de2d1bf7bb165f61c1017c58359
+    name: minecraft-api
+    type: application
+    urls:
+    - https://github.com/masel-io/helm-charts/releases/download/minecraft-api-0.17.0/minecraft-api-0.17.0.tgz
+    version: 0.17.0
+  - apiVersion: v2
     appVersion: 2.24.1
     created: "2024-07-23T20:29:14.814630821Z"
     description: A Helm chart for Kubernetes
@@ -674,4 +684,4 @@ entries:
     urls:
     - https://github.com/masel-io/helm-charts/releases/download/transfer-sh-0.1.0/transfer-sh-0.1.0.tgz
     version: 0.1.0
-generated: "2024-07-23T20:29:14.814852043Z"
+generated: "2024-07-31T12:33:05.95877743Z"
